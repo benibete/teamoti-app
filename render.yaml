@@ -1,8 +1,8 @@
 services:
 - type: web
-  name: namviek-be
+  name: teamoti-app
   runtime: node
-  repo: https://github.com/hudy9x/namviek
+  repo: https://github.com/benibete/teamoti-app
   plan: free
   envVars:
   - key: REDIS_HOST
